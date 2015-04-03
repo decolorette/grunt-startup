@@ -1,0 +1,12 @@
+// Your sass here
+
+// Colors.
+$primary :        #449D44;
+
+// Font Styling & Sizing.
+$font-stack :       'Montserrat', Tahoma, Arial, sans-serif;
+
+body {
+  font-size: $base;
+  font-family: $font-stack;
+}
