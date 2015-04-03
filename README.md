@@ -18,7 +18,7 @@ grunt-cli@0.1.13 /home/jazio/npm/lib/node_modules/grunt-cli
 └── findup-sync@0.1.3 (lodash@2.4.1, glob@3.2.11)
 ```
 
-Then run ```npm init``` to generate package.json.
+Then run ```npm init``` to generate package.json. If package.json is already created and npm_modules is missing run ```npm install``` to install grunt packages in node_modules.
 
 You need to install needed grunt plugins:
 ```
