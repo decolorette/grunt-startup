@@ -4,9 +4,22 @@
 This projects help you get started running Grunt with two main plugins allowing to compile Sass (grunt-contrib-sass) and to minify javascript (grunt-contrib-uglify).
 
 ###Prerequisites
-Install grunt.
+####Install grunt.
 
-You need node.js and its installer: npm. The best way to install node.js is via its installer: https://nodejs.org/. Then run ```sudo npm install npm -g```
+You need node.js and its installer: npm.
+
+```
+sudo apt-get install nodejs
+sudo apt-get install npm
+
+Update to the latest version:
+```
+sudo npm install -g
+npm cache clean -f
+npm install -g n
+sudo n stable
+nodejs -v
+``` 
 
 Now install grunt command line tool (command i or install):
 ```
@@ -33,7 +46,7 @@ These will save entries to package.json.
 
 
 
-###Run grunt
+####Run grunt
 ```$ grunt```
 
 will output:
