@@ -4,29 +4,26 @@
 This projects help you get started running Grunt with two main plugins allowing to compile Sass (grunt-contrib-sass) and to minify javascript (grunt-contrib-uglify).
 
 ###Prerequisites
-####Install grunt.
+Install grunt.
 
-You need node.js and its installer: npm.
+You need ruby, node.js and its installer: npm.
 
 ```
-sudo apt-get install nodejs
-sudo apt-get install npm
+sudo apt-get install nodejs npm ruby
+```
+Optionally: Update to the latest version:
 
-Update to the latest version:
 ```
-```
-sudo npm install -g
-npm cache clean -f
-npm install -g n
+sudo npm cache clean -f
+sudo npm install -g n
 sudo n stable
-nodejs -v
 ``` 
 
 Now install grunt command line tool (command i or install):
 ```
 $ npm i -g grunt-cli
 /home/you/npm/bin/grunt -> /home/you/npm/lib/node_modules/grunt-cli/bin/grunt
-grunt-cli@0.1.13 /homema/jazio/npm/lib/node_modules/grunt-cli
+grunt-cli@0.1.13 /home/jazio/npm/lib/node_modules/grunt-cli
 ├── resolve@0.3.1
 ├── nopt@1.0.10 (abbrev@1.0.5)
 └── findup-sync@0.1.3 (lodash@2.4.1, glob@3.2.11)
@@ -44,6 +41,8 @@ or whatever.
 
 Option --save-dev (or -S) will save it to to devDependencies. 
 These will save entries to package.json.
+
+
 
 
 
@@ -69,4 +68,7 @@ Now for every edit of scss file or javascript (sjs), grunt will generate and cop
 
 dependencies vs devDependencies.
 
-When manually edit the package.json there are two sections of dependencies: dependencies are required to run, devDependencies only to develop. 
+When manually edit the package.json there are two sections of dependencies: dependencies are required to run, devDependencies only to develop.
+
+### More reading on
+http://getbootstrap.com/getting-started/
